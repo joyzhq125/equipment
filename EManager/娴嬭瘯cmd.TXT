@@ -1,0 +1,52 @@
+
+
+$#ABCDEFG001
+$0dSBZX0G001
+
+
+//zmd alm
+$0eZmdJ0JinB
+$0eZmdJ1JinB
+//zmd sj
+$0aZmdD03456
+$0aZmdD13456
+$0aZmdDA3456
+
+//xhj alm
+$0eDcdJ0alm1
+
+//xhj sj
+$0aDxTt00010
+$0aDrGt00020
+$0aDrRt00030
+$0aDct100040
+$0aDct200050
+$0aDct300060
+$0aDct400070
+$0aDct500080
+
+$0aNbTt00110
+$0aNrGt00120
+$0aNrRt00130
+$0aNct100140
+$0aNct200150
+$0aNct300160
+$0aNct400170
+$0aNct500180
+
+
+
+===new===
+#上报
+$0dSBZX0G001
+
+$0eZmJBXalam
+$0eZmJSXwarn
+$0eZmYCXabno
+
+#下发
+$&ABCDEFG005
+$0GZmdC0stat
+$0GZmdC0clos
+$0GZmdD0stat
+$0GZmdD0clos

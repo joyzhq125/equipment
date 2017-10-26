@@ -1,0 +1,16 @@
+#!/bin/bash
+ip=localhost
+port=9990
+#clean logfile
+find /var/log/EManager -name "*.log" -mtime +6 -exec rm -rf {} \;
+
+#check port
+nc -w 10 -z $ip $port > /dev/null 2>&1
+if [ $? -eq 0 ]
+then
+  echo $ip $port:ok
+else
+  echo $ip $port:fail
+  service em restart
+fi
+

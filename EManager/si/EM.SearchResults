@@ -1,0 +1,7 @@
+---- mysql_options Matches (6 in 4 files) ----
+Db.cpp:	if ( mysql_options( &g_dbconn, MYSQL_OPT_RECONNECT, &reconnect ) )
+Db.cpp:		if ( mysql_options( &g_dbconn, MYSQL_OPT_RECONNECT, &reconnect ) )
+Logger.cpp:                    if ( mysql_options( &mDbConnection, MYSQL_OPT_RECONNECT, &reconnect ) )
+Logger.cpp:                        if ( mysql_options( &mDbConnection, MYSQL_OPT_RECONNECT, &reconnect ) )
+Misc.cpp:	if ( mysql_options( &m_dbconn, MYSQL_OPT_RECONNECT, &reconnect ) )
+Msghdl.cpp:	if ( mysql_options( &m_DbConnection, MYSQL_OPT_RECONNECT, &reconnect ) )

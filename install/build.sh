@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "start EM build ..."
+echo "rm build `rm -rf build`"
+echo "mkdir build `mkdir -p build`"
+echo "cp libphpcpp.so `cp -p -f ../PHP-CPP/libphpcpp.so build/`"
+echo "cp php-emfed.so `cp -p -f ../php-emfed/php-emfed.so build/`"
+echo "cp EManager `cp -p -f ../EManager/EManager build/`"
+echo "cp monitor `cp -p -f ../EManager/monitor build/`"
+echo "cp em.conf `cp -p -f ../EManager/em.conf build/`"
+echo "cp em `cp -p -f ../EManager/em build/`"
+echo "cp install.sh `cp -p -f ../EManager/install.sh build/`"
+echo "cp cron`cp -p -f ../EManager/root build/`"
+echo "complete EM build..."

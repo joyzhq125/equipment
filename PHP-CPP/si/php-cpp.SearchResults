@@ -1,0 +1,2 @@
+---- zend_is_callable Matches (1 in 1 files) ----
+Value.cpp (zend):    return zend_is_callable(_val, 0, NULL TSRMLS_CC);
